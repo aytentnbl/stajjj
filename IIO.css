@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    padding:0;
+   
+    background-image: url('https://i.hizliresim.com/42o9met.gif');
+    background-size: 100% 100%;
+    height: 1800px;
+    padding:0;
+    margin:0;
+object-fit: cover;
+font-family: 'Play', sans-serif;
+z-index: 10000;
+}
+#baslik {
+    background-color: black;
+    color:white;
+    height:65px;
+    width: 100%;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    font-size:28px;
+    text-align:right;
+    padding:15px;
+    
+
+}font{
+    float:left;
+    letter-spacing: 2px;
+}
+span{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Raleway Dots', cursive;
+}
+
+
+.fa {
+  padding: 3px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 4px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #000000;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #000000;
+    color: white;
+  }
+  section{
+    width: 100px;
+    height:auto;
+    box-shadow: turquoise;
+    margin-top: 15px;
+    overflow:auto;
+    display:inline;
+   
+  }
+  nav{
+      width: 100%;
+      font-size: 9px;
+      float:right;
+      margin-top: 22px;
+      height: auto;
+      font-family: 'Press Start 2P', cursive;
+
+  } nav ul{
+      float: right;
+      width:auto;
+      height:100%;
+      margin:0;
+      padding:0;
+  }
+  nav li{
+      list-style-type:none ;
+  }
+
+  nav li a{
+      height:50px;
+      text-decoration: none;
+      color: black;
+      border-radius: 18%;
+      
+  }nav li a:hover
+
+  {
+      color: turquoise;
+      background-size: cover;
+      background:rosybrown;
+  }
+section img#clouds {
+    mix-blend-mode: screen;
+   object-fit: cover;
+   width: 100%;
+}
+   section img#girl {
+       position: absolute;
+       left: 1080px;
+       top:300px;
+   } section img#girl2 {
+    position: absolute;
+  top:80;
+  left:10;
+   }
+section img#clouds {
+    position: absolute;
+    top: 1000px;
+    left:0;
+
+}
+
+ .swiper-container {
+    width: 100%;
+    padding-top: 1100px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow: hidden;
+    
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 400px;
+  
+  }
+
+  .swiper-slide img {
+    display: block;
+ 
+    width: 100%;
+  }
+.content  {
+  margin-top: 20px;
+  color: #b68787;
+  background-position: center;
+  text-align: center;
+  font-family: 'Qwitcher Grypen', cursive;
+  font-size: 50px;
+
+}
+  
+footer{
+    position: fixed;
+    bottom:0px;
+    width:100%;
+    height: 55px;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+text-align: center;
+font-size: 12px;
+font-family: 'Bodoni Moda', serif;
+
+}
+
+
+
+
+
+
+
+
