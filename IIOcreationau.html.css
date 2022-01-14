@@ -56,7 +56,12 @@ span{
   .fa-twitter {
     background: #000000;
     color: white;
-  }.back {
+  }
+.fa-shopping-basket {
+    background: #000000;
+    color: white;
+}
+.back {
     
     width: 100%;
     height: calc(100vh);
