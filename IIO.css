@@ -108,7 +108,7 @@ section img#clouds {
 }
    section img#girl {
        position: absolute;
-       left: 1080px;
+      right:10px;
        top:300px;
    } section img#girl2 {
     position: absolute;
